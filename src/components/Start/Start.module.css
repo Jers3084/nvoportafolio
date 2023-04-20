@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  padding-top: 70px;
+  width: 100vw;
+  max-width: 1920px; /*se limita a un maximo de 1920px de ancho*/
+  height: 100vh;
+  max-height: 1080px; /*se limita a un maximo de 1920px de ancho*/
+  margin: 0 auto;
+  text-align: center;
+  color: darkblue;
+  background-image: url("./img/fondo.jpg");
+
+}
+
+.titulo {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+
+.fotostart {
+  background-image: url("./img/DesarrolladorJERS.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  width: 30%;
+  height: 50vh;
+  margin: 0 auto;
+  border: blue 1px solid;
+  border-radius: 10px;
+}
+
+.parrafo_uno {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.parrafo_dos {
+  width: 95%;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 850px) {
+  .contenedor {
+    width: 100vw;
+    /* height: 900px; */
+    padding-top: 90px;
+    text-align: center;
+    color: darkblue;
+    background-image: url("./img/fondo.jpg");
+  }
+
+  .titulo {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .fotostart {
+    background-image: url("./img/DesarrolladorJERS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: blue 1px solid;
+    border-radius: 10px;
+  }
+
+  .parrafo_uno {
+    width: 98%;
+    margin-top: 15px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+
+  .parrafo_dos {
+    width: 98%;
+    padding: 10px 5px;
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
