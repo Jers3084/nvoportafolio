@@ -48,11 +48,7 @@ export const Project = (props) => {
             return (
               <div key={index} className={styles.card}>
                 <div className={styles.imagen_card}>
-                  <img
-                    src={x.imagen}
-                    alt=""
-                    style={{ with: "130px" }}
-                  />
+                  <img src={x.imagen} alt="" style={{ with: "130px" }} />
                 </div>
                 <div className={styles.title_card}>
                   <h3>{x.nombre}</h3>
@@ -67,6 +63,14 @@ export const Project = (props) => {
                   rel="noopener noreferrer"
                 >
                   Ejecutar
+                </a>
+                <a
+                  className={styles.descripcion_card}
+                  href={x.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
                 </a>
               </div>
             );
