@@ -38,7 +38,8 @@ export const Navbar = (props) => {
                 <Link
                   to="/project"
                   className={styles.link}
-                  onClick={pushbutton}>
+                  onClick={pushbutton}
+                >
                   Proyectos
                 </Link>
               </li>
@@ -46,7 +47,8 @@ export const Navbar = (props) => {
                 <Link
                   to="/contact"
                   className={styles.link}
-                  onClick={pushbutton}>
+                  onClick={pushbutton}
+                >
                   Contacto
                 </Link>
               </li>
@@ -79,7 +81,8 @@ export const Navbar = (props) => {
                 <Link
                   to="/project"
                   className={styles.link}
-                  onClick={pushbutton}>
+                  onClick={pushbutton}
+                >
                   Projects
                 </Link>
               </li>
@@ -87,7 +90,8 @@ export const Navbar = (props) => {
                 <Link
                   to="/contact"
                   className={styles.link}
-                  onClick={pushbutton}>
+                  onClick={pushbutton}
+                >
                   Contact
                 </Link>
               </li>

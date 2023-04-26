@@ -97,17 +97,17 @@ export const About = (props) => {
               <div className={styles.columna_uno}>
                 <p className={styles.titulo5}>Aptitudes</p>
                 <hr className={styles.hr} />
-                <ul className={styles.ul_dos}>
-                  <li className={styles.item_lista2}>Honestidad</li>
-                  <li className={styles.item_lista2}>Lealtad</li>
-                  <li className={styles.item_lista2}>Proactividad</li>
-                  <li className={styles.item_lista2}>Disponibilidad</li>
-                  <li className={styles.item_lista2}>Liderazgo</li>
-                  <li className={styles.item_lista2}>Autodidacta</li>
-                  <li className={styles.item_lista2}>Creativo</li>
-                  <li className={styles.item_lista2}>Analítico</li>
-                  <li className={styles.item_lista2}>Sociable</li>
-                  <li className={styles.item_lista2}>Adaptabilidad</li>
+                <ul className={styles.ul_tres}>
+                  <li className={styles.item_lista3}>Honestidad</li>
+                  <li className={styles.item_lista3}>Lealtad</li>
+                  <li className={styles.item_lista3}>Proactividad</li>
+                  <li className={styles.item_lista3}>Disponibilidad</li>
+                  <li className={styles.item_lista3}>Liderazgo</li>
+                  <li className={styles.item_lista3}>Autodidacta</li>
+                  <li className={styles.item_lista3}>Creativo</li>
+                  <li className={styles.item_lista3}>Analítico</li>
+                  <li className={styles.item_lista3}>Sociable</li>
+                  <li className={styles.item_lista3}>Adaptabilidad</li>
                 </ul>
               </div>
               <div className={styles.columna_media}>
@@ -116,21 +116,21 @@ export const About = (props) => {
               <div className={styles.columna_dos}>
                 <p className={styles.titulo5}>Habilidades</p>
                 <hr className={styles.hr} />
-                <ul className={styles.ul_dos}>
-                  <li className={styles.item_lista2}>
+                <ul className={styles.ul_cuatro}>
+                  <li className={styles.item_lista4}>
                     Entendimiento de planes estratégicos
                   </li>
-                  <li className={styles.item_lista2}>Trabajo en Equipo</li>
-                  <li className={styles.item_lista2}>Toma de decisiones</li>
-                  <li className={styles.item_lista2}>
+                  <li className={styles.item_lista4}>Trabajo en Equipo</li>
+                  <li className={styles.item_lista4}>Toma de decisiones</li>
+                  <li className={styles.item_lista4}>
                     Capacidad de Análisis y Síntesis
                   </li>
-                  <li className={styles.item_lista2}>
+                  <li className={styles.item_lista4}>
                     Resolución de problemas
                   </li>
-                  <li className={styles.item_lista2}>Rápido aprendizaje </li>
-                  <li className={styles.item_lista2}>Analítico</li>
-                  <li className={styles.item_lista2}>
+                  <li className={styles.item_lista4}>Rápido aprendizaje </li>
+                  <li className={styles.item_lista4}>Analítico</li>
+                  <li className={styles.item_lista4}>
                     Desarrollo de Proyectos e Ingenierias
                   </li>
                 </ul>
@@ -229,17 +229,17 @@ export const About = (props) => {
               <div className={styles.columna_uno}>
                 <p className={styles.titulo5}>Aptitudes</p>
                 <hr className={styles.hr} />
-                <ul className={styles.ul_dos}>
-                  <li className={styles.item_lista2}>Honesty</li>
-                  <li className={styles.item_lista2}>Loyalty</li>
-                  <li className={styles.item_lista2}>Proactivity</li>
-                  <li className={styles.item_lista2}>Availability</li>
-                  <li className={styles.item_lista2}>Leadership</li>
-                  <li className={styles.item_lista2}>Autodidact</li>
-                  <li className={styles.item_lista2}>Creative</li>
-                  <li className={styles.item_lista2}>Analytical</li>
-                  <li className={styles.item_lista2}>Sociable</li>
-                  <li className={styles.item_lista2}>Adaptability</li>
+                <ul className={styles.ul_tres}>
+                  <li className={styles.item_lista3}>Honesty</li>
+                  <li className={styles.item_lista3}>Loyalty</li>
+                  <li className={styles.item_lista3}>Proactivity</li>
+                  <li className={styles.item_lista3}>Availability</li>
+                  <li className={styles.item_lista3}>Leadership</li>
+                  <li className={styles.item_lista3}>Autodidact</li>
+                  <li className={styles.item_lista3}>Creative</li>
+                  <li className={styles.item_lista3}>Analytical</li>
+                  <li className={styles.item_lista3}>Sociable</li>
+                  <li className={styles.item_lista3}>Adaptability</li>
                 </ul>
               </div>
               <div className={styles.columna_media}>
@@ -248,19 +248,19 @@ export const About = (props) => {
               <div className={styles.columna_dos}>
                 <p className={styles.titulo5}>Skills</p>
                 <hr className={styles.hr} />
-                <ul className={styles.ul_dos}>
-                  <li className={styles.item_lista2}>
+                <ul className={styles.ul_cuatro}>
+                  <li className={styles.item_lista4}>
                     Understanding of strategic plans
                   </li>
-                  <li className={styles.item_lista2}>Teamwork</li>
-                  <li className={styles.item_lista2}>Decision making</li>
-                  <li className={styles.item_lista2}>
+                  <li className={styles.item_lista4}>Teamwork</li>
+                  <li className={styles.item_lista4}>Decision making</li>
+                  <li className={styles.item_lista4}>
                     Capacity for analysis and synthesis
                   </li>
-                  <li className={styles.item_lista2}>Problem resolution</li>
-                  <li className={styles.item_lista2}>Fast learning</li>
-                  <li className={styles.item_lista2}>Analytical</li>
-                  <li className={styles.item_lista2}>
+                  <li className={styles.item_lista4}>Problem resolution</li>
+                  <li className={styles.item_lista4}>Fast learning</li>
+                  <li className={styles.item_lista4}>Analytical</li>
+                  <li className={styles.item_lista4}>
                     Desarrollo de Proyectos e Ingenierias
                   </li>
                 </ul>

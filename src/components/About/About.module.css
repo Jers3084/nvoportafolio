@@ -12,9 +12,8 @@
 }
 
 .contenedor_uno {
-  padding-top: 90px;
+  padding-top: 70px;
   width: 100%;
-  height: 400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -56,7 +55,6 @@
 
 .contenedor_dos {
   width: 100%;
-  height: 250px;
   padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
@@ -96,22 +94,52 @@
   padding: 5px 5px;
 }
 
+.ul_dos {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding-left: 50px;
+}
+
+.item_lista2 {
+  padding: 5px 5px;
+}
+
+.ul_tres {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding-left: 50px;
+}
+
+.item_lista3 {
+  padding: 5px 5px;
+}
+
+.ul_cuatro {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding-left: 50px;
+}
+
+.item_lista4 {
+  padding: 5px 5px;
+}
+
 .contenedor_tres {
+  padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
   color: darkblue;
 }
 
 .titulo {
-  margin-top: 30px;
   font-size: 2rem;
   text-align: left;
   font-weight: bold;
   padding-left: 28px;
+  padding-bottom: 10px;
 }
 
 .titulo4 {
-  margin-top: 30px;
   font-size: 2rem;
   text-align: left;
   font-weight: bold;
@@ -129,15 +157,14 @@
 
 .contenedor_cuatro {
   width: 100%;
-  height: 470px;
   color: darkblue;
+  padding-top: 20px;
   padding-bottom: 25px;
 }
 
 .contenedor_grid {
   width: 100%;
   height: 470px;
-  margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
   grid-template-rows: repeat(13, 1fr);
@@ -171,16 +198,6 @@
   padding-left: 28px;
 }
 
-.ul_dos {
-  text-align: justify;
-  font-size: 1.2rem;
-  padding-left: 50px;
-}
-
-.item_lista2 {
-  padding: 5px 5px;
-}
-
 .pie_de_pagina {
   width: 100%;
   height: 30px;
@@ -196,7 +213,6 @@
 @media screen and (max-width: 850px) {
   .contenedor {
     width: 100vw;
-   
   }
   .contenedor_uno {
     padding-top: 90px;
