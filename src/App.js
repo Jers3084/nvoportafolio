@@ -12,7 +12,6 @@ function App() {
   useEffect(() => {
     window.onload = function () {
       var ln = navigator.language || navigator.userLanguage;
-      console.log(ln);
       return setLang(ln);
     };
   }, []);
