@@ -6,7 +6,8 @@ export const Start = (props) => {
     <>
       {props.lang === "es-419" ||
       props.lang === "es" ||
-      props.lang === "es-ES" ? (
+      props.lang === "es-ES" ||
+      props.lang === "es-MX" ? (
         <div className={styles.contenedor}>
           <h1 className={styles.titulo}>
             Portafolio Desarrollador WebFullStack

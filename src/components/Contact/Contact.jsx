@@ -13,7 +13,6 @@ export const Contact = (props) => {
   const [state, handleSubmit] = useForm("mzbqklgk");
   const ref = useRef();
 
-
   useEffect(() => {
     if (state.succeeded) {
       setEncabezadoModal("Contacto");
@@ -28,7 +27,8 @@ export const Contact = (props) => {
     <>
       {props.lang === "es-419" ||
       props.lang === "es" ||
-      props.lang === "es-ES" ? (
+      props.lang === "es-ES" ||
+      props.lang === "es-MX" ? (
         <div className={styles.contenedor}>
           <h1 className={styles.titulo}>Contacto</h1>
 
@@ -105,7 +105,7 @@ export const Contact = (props) => {
           <h1 className={styles.titulo}>Contact</h1>
 
           <div className={styles.pagebody}>
-            <form ref={ref}  className={styles.formato} onSubmit={handleSubmit}>
+            <form ref={ref} className={styles.formato} onSubmit={handleSubmit}>
               <div className={styles.fullentry}>
                 <label className={styles.formlabel} htmlFor="email">
                   Your E-mail:

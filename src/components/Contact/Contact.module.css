@@ -14,7 +14,6 @@
   text-align: center;
   color: darkblue;
   background-image: url("./img/fondo.jpg");
-  border: red solid 2px;
 }
 
 .titulo {
@@ -28,8 +27,6 @@
   width: 100%;
   height: 78%;
 }
-
-
 
 .formato {
   width: 50%;
@@ -109,7 +106,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
- 
 }
 
 .img {

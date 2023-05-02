@@ -15,7 +15,8 @@ export const Navbar = (props) => {
     <>
       {props.lang === "es-419" ||
       props.lang === "es" ||
-      props.lang === "es-ES" ? (
+      props.lang === "es-ES" ||
+      props.lang === "es-MX" ? (
         <nav className={styles.navbar}>
           <div className={styles.left}>
             <Link to="/" className="">

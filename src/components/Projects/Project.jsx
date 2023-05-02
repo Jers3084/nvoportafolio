@@ -8,7 +8,8 @@ export const Project = (props) => {
     <>
       {props.lang === "es-419" ||
       props.lang === "es" ||
-      props.lang === "es-ES" ? (
+      props.lang === "es-ES" ||
+      props.lang === "es-MX" ? (
         <div className={styles.contenido}>
           {proyectos.map((x, index) => {
             return (
