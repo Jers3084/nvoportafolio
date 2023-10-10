@@ -8,8 +8,7 @@ export const Project = (props) => {
     <>
       {props.lang === "es-419" ||
       props.lang === "es" ||
-      props.lang === "es-ES" ||
-      props.lang === "es-MX" ? (
+      props.lang === "es-ES" ? (
         <div className={styles.contenido}>
           {proyectos.map((x, index) => {
             return (
@@ -49,7 +48,11 @@ export const Project = (props) => {
             return (
               <div key={index} className={styles.card}>
                 <div className={styles.imagen_card}>
-                  <img src={x.imagen} alt="" style={{ with: "130px" }} />
+                  <img
+                    src={x.imagen}
+                    alt=""
+                    style={{ with: "130px" }}
+                  />
                 </div>
                 <div className={styles.title_card}>
                   <h3>{x.nombre}</h3>
@@ -64,14 +67,6 @@ export const Project = (props) => {
                   rel="noopener noreferrer"
                 >
                   Ejecutar
-                </a>
-                <a
-                  className={styles.descripcion_card}
-                  href={x.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github
                 </a>
               </div>
             );

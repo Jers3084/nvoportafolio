@@ -12,8 +12,9 @@
 }
 
 .contenedor_uno {
-  padding-top: 70px;
+  padding-top: 90px;
   width: 100%;
+  height: 400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -23,7 +24,6 @@
 
 .fotografia {
   width: 30%;
-  padding-top: 5px;
   padding-left: 100px;
 }
 
@@ -56,6 +56,7 @@
 
 .contenedor_dos {
   width: 100%;
+  height: 250px;
   padding-top: 20px;
   padding-left: 30px;
   padding-right: 30px;
@@ -95,36 +96,6 @@
   padding: 5px 5px;
 }
 
-.ul_dos {
-  text-align: justify;
-  font-size: 1.2rem;
-  padding-left: 50px;
-}
-
-.item_lista2 {
-  padding: 5px 5px;
-}
-
-.ul_tres {
-  text-align: justify;
-  font-size: 1.2rem;
-  padding-left: 50px;
-}
-
-.item_lista3 {
-  padding: 5px 5px;
-}
-
-.ul_cuatro {
-  text-align: justify;
-  font-size: 1.2rem;
-  padding-left: 50px;
-}
-
-.item_lista4 {
-  padding: 5px 5px;
-}
-
 .contenedor_tres {
   padding-top: 20px;
   padding-left: 30px;
@@ -133,14 +104,15 @@
 }
 
 .titulo {
+  margin-top: 30px;
   font-size: 2rem;
   text-align: left;
   font-weight: bold;
   padding-left: 28px;
-  padding-bottom: 10px;
 }
 
 .titulo4 {
+  margin-top: 30px;
   font-size: 2rem;
   text-align: left;
   font-weight: bold;
@@ -157,34 +129,36 @@
 }
 
 .contenedor_cuatro {
-  width: 99%;
+  width: 100%;
+  height: 470px;
   color: darkblue;
-  padding-top: 20px;
   padding-bottom: 25px;
 }
 
 .contenedor_grid {
   width: 100%;
+  height: 470px;
+  margin-top: 30px;
   display: grid;
-  grid-template-columns: 2fr 0.5fr 2fr;
-  grid-template-rows: repeat(1, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+  grid-template-rows: repeat(13, 1fr);
+  grid-gap: 20px;
   color: darkblue;
   padding-bottom: 25px;
 }
 
 .columna_uno {
-  grid-column: 1/2;
+  grid-column: 2/3;
   text-align: center;
 }
 
 .columna_dos {
-  grid-column: 3/4;
+  grid-column: 4/5;
   text-align: left;
 }
 
 .columna_media {
-  grid-column: 2/3;
+  grid-column: 3/4;
   text-align: center;
 }
 
@@ -196,6 +170,16 @@
   padding-left: 40px;
   padding-bottom: 10px;
   padding-left: 28px;
+}
+
+.ul_dos {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding-left: 50px;
+}
+
+.item_lista2 {
+  padding: 5px 5px;
 }
 
 .pie_de_pagina {
@@ -213,51 +197,56 @@
 @media screen and (max-width: 850px) {
   .contenedor {
     width: 100vw;
-    background-image: url("./img/fondo.jpg");
-    background-repeat: repeat;
+   
   }
   .contenedor_uno {
-    padding-top: 75px;
+    padding-top: 90px;
     width: 100%;
+    height: 800px;
     padding-left: 0px;
     padding-right: 0px;
   }
 
   .fotografia {
     width: 100%;
-    padding-left: 0px;
-    padding-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 40px;
   }
 
   .img {
-    width: 90%;
+    border-radius: 5px;
+    border: darkblue 0.25px solid;
   }
 
   .parrafo_uno {
-    width: 100%;
+    width: 70%;
     border-top: darkblue 1px solid;
     border-bottom: darkblue 1px solid;
-    padding-left: 5px;
+    padding-left: 0;
     padding-right: 0;
-  }
-
-  .subparrafo1 {
-    width: 100%;
-    padding: 10px 0px;
-    text-align: justify;
-    text-align: left;
-    font-size: 1.1rem;
   }
 
   .titulo1 {
     font-size: 0.5rem;
     text-align: left;
     font-weight: bold;
-    padding-left: 0px;
+    padding-left: 270px;
     padding-top: 10px;
+  }
+
+  .subparrafo1 {
+    width: 95%;
+    padding: 40px 5px;
+    text-align: justify;
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
+  .contenedor_dos {
+    width: 95%;
+    height: 410px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .titulo2 {
@@ -275,13 +264,6 @@
     padding-right: 40px;
     text-align: justify;
     font-size: 1.2rem;
-  }
-
-  .contenedor_dos {
-    width: 100%;
-    padding-top: 10px;
-    padding-left: 5px;
-    padding-right: 0px;
   }
 
   .titulo3 {
@@ -306,6 +288,7 @@
 
   .contenedor_tres {
     width: 100%;
+    padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
@@ -337,26 +320,17 @@
 
   .contenedor_cuatro {
     width: 100%;
+    height: 830px;
     display: block;
-    padding-bottom: 0;
+    padding-bottom: 25px;
   }
 
   .contenedor_grid {
     width: 100%;
+    height: 470px;
+    margin-top: 30px;
     display: block;
-    padding-bottom: 0px;
-  }
-
-  .columna_uno {
-    width: 100%;
-  }
-
-  .columna_dos {
-    width: 100%;
-  }
-
-  .columna_media {
-    width: 100%;
+    padding-bottom: 25px;
   }
 
   .titulo5 {

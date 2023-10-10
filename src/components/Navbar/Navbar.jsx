@@ -15,8 +15,7 @@ export const Navbar = (props) => {
     <>
       {props.lang === "es-419" ||
       props.lang === "es" ||
-      props.lang === "es-ES" ||
-      props.lang === "es-MX" ? (
+      props.lang === "es-ES" ? (
         <nav className={styles.navbar}>
           <div className={styles.left}>
             <Link to="/" className="">
@@ -39,8 +38,7 @@ export const Navbar = (props) => {
                 <Link
                   to="/project"
                   className={styles.link}
-                  onClick={pushbutton}
-                >
+                  onClick={pushbutton}>
                   Proyectos
                 </Link>
               </li>
@@ -48,8 +46,7 @@ export const Navbar = (props) => {
                 <Link
                   to="/contact"
                   className={styles.link}
-                  onClick={pushbutton}
-                >
+                  onClick={pushbutton}>
                   Contacto
                 </Link>
               </li>
@@ -82,8 +79,7 @@ export const Navbar = (props) => {
                 <Link
                   to="/project"
                   className={styles.link}
-                  onClick={pushbutton}
-                >
+                  onClick={pushbutton}>
                   Projects
                 </Link>
               </li>
@@ -91,8 +87,7 @@ export const Navbar = (props) => {
                 <Link
                   to="/contact"
                   className={styles.link}
-                  onClick={pushbutton}
-                >
+                  onClick={pushbutton}>
                   Contact
                 </Link>
               </li>

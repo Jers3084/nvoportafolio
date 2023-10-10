@@ -33,5 +33,12 @@
     "descripcion": "eCommerce application, consisting of a product catalog, shopping cart, payment gateway, authentication and user registration",
     "path": "https://proyecto5-frontend-2y7r3kdfi-jers3084.vercel.app",
     "github": "https://github.com/Jers3084/Proyecto5_Frontend"
+  },
+  {
+    "nombre": "UX/UI Project",
+    "imagen": "./img/proyectoUXUI_movil.png",
+    "descripcion": "UX Research and UI Design Project",
+    "path": "https://www.behance.net/gallery/156433787/Proyecto-UXUI-Plataforma-Web-para-libros-Publish",
+    "github": "https://jers3084.github.io/Landing-UXUI/"
   }
 ]
