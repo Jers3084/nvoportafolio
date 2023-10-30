@@ -14,7 +14,6 @@
 .contenedor_uno {
   padding-top: 90px;
   width: 100%;
-  height: 400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -56,8 +55,8 @@
 
 .contenedor_dos {
   width: 100%;
-  height: 250px;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
   color: darkblue;
@@ -83,7 +82,8 @@
   font-weight: bold;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .ul_uno {
@@ -97,27 +97,29 @@
 }
 
 .contenedor_tres {
-  padding-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
   color: darkblue;
 }
 
 .titulo {
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 2rem;
   text-align: left;
   font-weight: bold;
   padding-left: 28px;
+  
 }
 
 .titulo4 {
-  margin-top: 30px;
+  padding-top: 10px;
   font-size: 2rem;
   text-align: left;
   font-weight: bold;
   padding-left: 28px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .parrafo3 {
@@ -130,21 +132,18 @@
 
 .contenedor_cuatro {
   width: 100%;
-  height: 470px;
+  /*height: 470px;*/
   color: darkblue;
-  padding-bottom: 25px;
 }
 
 .contenedor_grid {
   width: 100%;
-  height: 470px;
-  margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
-  grid-template-rows: repeat(13, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   grid-gap: 20px;
   color: darkblue;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .columna_uno {
@@ -163,11 +162,10 @@
 }
 
 .titulo5 {
-  margin-top: 20px;
   font-size: 2rem;
   text-align: left;
   font-weight: bold;
-  padding-left: 40px;
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 28px;
 }
@@ -197,12 +195,11 @@
 @media screen and (max-width: 850px) {
   .contenedor {
     width: 100vw;
-   
   }
   .contenedor_uno {
     padding-top: 90px;
+    padding-bottom: 10px;
     width: 100%;
-    height: 800px;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -219,18 +216,20 @@
 
   .parrafo_uno {
     width: 70%;
-    border-top: darkblue 1px solid;
+    border-top: rgb(210, 210, 239) 1px solid;
     border-bottom: darkblue 1px solid;
     padding-left: 0;
     padding-right: 0;
   }
 
   .titulo1 {
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     text-align: left;
     font-weight: bold;
-    padding-left: 270px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .subparrafo1 {
@@ -239,14 +238,6 @@
     text-align: justify;
     text-align: left;
     font-size: 1.1rem;
-  }
-
-  .contenedor_dos {
-    width: 95%;
-    height: 410px;
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .titulo2 {
@@ -266,18 +257,28 @@
     font-size: 1.2rem;
   }
 
+  .contenedor_dos {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .titulo3 {
     font-size: 1.5rem;
     text-align: left;
     font-weight: bold;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
 
   .ul_uno {
     text-align: justify;
     font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 5px;
   }
@@ -295,7 +296,6 @@
   }
 
   .titulo {
-    margin-top: 0px;
     font-size: 1.5rem;
     text-align: left;
     font-weight: bold;
@@ -320,26 +320,21 @@
 
   .contenedor_cuatro {
     width: 100%;
-    height: 830px;
     display: block;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
   }
 
   .contenedor_grid {
     width: 100%;
-    height: 470px;
-    margin-top: 30px;
     display: block;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
   }
 
   .titulo5 {
-    margin-top: 20px;
+    padding-bottom: 10px;
     font-size: 2rem;
     text-align: left;
     font-weight: bold;
-    padding-left: 40px;
-    padding-bottom: 10px;
     padding-left: 28px;
   }
 

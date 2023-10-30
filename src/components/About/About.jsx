@@ -19,7 +19,7 @@ export const About = (props) => {
                 <strong>Jesús Eugenio Ricardez de los Santos</strong> y soy{" "}
                 <strong>“Desarrollador Web Fullstack”</strong>
               </p>
-              <p className={styles.titulo2}>Mi objetivo profesional</p>
+              <p className={styles.titulo1}>Mi objetivo profesional</p>
               <p className={styles.parrafo2}>
                 Apoyar profesional y tecnológicamente a empresas grandes,
                 medianas y pequeñas, así como a emprendedores y profesionales en
